@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="/웹개발/test/test01_club.css">
+</head>
+<body class="formbody">
+<header>
+    <h1 class="yellow">2025. 우수 스터디 동아리 Louter</h1>
+    <p class="header">동아리 지원을 위한 지원서 작성 페이지 입니다<br> </p>
+    </header>
+    <form>
+        <fieldset>
+            <legend>기본 정보</legend>
+            <label>이름 : <input type="text" required maxlength="10"></label><br>
+            <label>학번 : <input type="text" required maxlength="4"></label> <br>
+            <label>전화번호 : <input type="tel" required ></label>
+        </fieldset>
+        <fieldset>
+            <legend>지원 분야 및 동기</legend>
+            <label>지원 분야 : </label><label><input type="radio" value="frontend" name="coding">프론트엔드 </label><label><input type="radio" value="backend" name="coding">백엔드</label>
+            <br>
+            <label>사용해본 언어 : </label>
+            <label>
+                <input type="checkbox" name="lan" value="python">Python
+            </label>
+            <label>
+                <input type="checkbox" name="lan" value="java">JAVA
+            </label>
+            <label>
+                <input type="checkbox" name="lan" value="ccpp">C / C++
+            </label>
+            <label>
+                <input type="checkbox" name="lan" value="js">JavaScript
+            </label>
+            <label>
+                <input type="checkbox" name="lan" value="htmcss">Html / CSS
+            </label>
+            <label>
+                <input type="checkbox" name="lan" value="none">없음
+            </label>
+            <br>
+            <label>지원 동기를 작성하시오<br>
+                <textarea cols="80" rows="6"></textarea>
+            </label>
+        </fieldset>
+              <button type="submit">신청하기</button>
+      <button type="reset">다시 작성하기</button>
+      <a href="/웹개발/test/test01_club.htm" target="_blank"
+      ><button type="button">이전 페이지로 돌아가기</button></a>
+    </form>
+</body>
+</html>

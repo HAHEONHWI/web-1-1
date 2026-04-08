@@ -1,0 +1,24 @@
+body {
+    background-color:rgb(230, 255, 196);
+}
+* {
+    font-family: '나눔명조';
+}
+.accent {
+    background-color: aquamarine
+}
+#introduce {
+    margin-top: 100px;
+    color: blue;
+}
+#introduce {
+    color:red
+}
+ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+#profile {
+    list-style-type:upper-roman;
+    list-style-position: inside;
+}

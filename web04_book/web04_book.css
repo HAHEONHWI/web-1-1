@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+
+h1 {
+    font-family: 'BookkMyungjo';
+    padding-top: 20px;
+}
+
+#head {
+    text-align: center;
+    background-color: #f9f871;
+    color: #342d40;
+}
+.yellow {
+    text-align: center;
+    background-color: #f9f871;
+    color: #342d40;
+    font-weight: bold;
+    font-size: larger;
+}
+.section {
+    width: 300px;
+    height: 480px;
+    border: 3px double #342d40;
+    /* border-style: solid dotted dashed double; */
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 3px 3px rgba(148, 148, 148, 0.513);
+    border-radius: 20px;
+    display: inline-block;
+    border-bottom-style: outset;
+    margin-right: 20px;
+    vertical-align: top;
+    /* float: left; */
+    /* border-color: black aqua aquamarine orange; */
+    /* border-color: aquamarine; */
+}
+#main {
+    text-align: center;
+
+    /* background: url(../images/html.png) no-repeat 30% 20% fixed;
+    background-size: cover; */
+    /* background-image: url(../images/js.png);
+    background-repeat: no-repeat; 
+    background-position: 20% 10%;
+    background-attachment: fixed; */
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px dotted gray;
+    margin: 20px auto;
+    /* border-top-left-radius: 0px; */
+    /* background-color: rgba(255, 166, 0, 0.482); */
+    padding: 10px;
+}
+
+#book1 {
+    background: linear-gradient(to right, #fffed0, rgb(185, 255, 120));
+    /* float: left; */
+
+}
+
+#book2 {
+    background: linear-gradient(to bottom right, #e9defa, #fbfcdb 20%);
+    /* float: right; */
+}
+
+#book3 {
+    background: linear-gradient(103deg, #fbc2eb, #a6c1ee);
+    /* clear: both; */
+    /* background: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple); */
+}
+
+#img1 {
+    /* background-clip: border-box;  */
+    background-image: url(https://image.yes24.com/goods/11681152/XL) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    /* background-clip: content-box; */
+    background-image: url(https://image.yes24.com/goods/116586056/XL);
+    background-size: cover;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+#img3{
+    /* background-clip: padding-box; */
+    background-image: url(https://image.yes24.com/goods/2312211/XL);
+    background-size: cover;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+
+#gradation {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background:radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.879) 2%,  rgb(59, 255, 164) 60% , #6c6cff);
+}
+
+/* #nav {
+    margin: 30px auto;
+} */
+#nav a {
+    text-decoration: none;
+    display: block;
+}
+
+#nav a:link, #nav a:visited {
+    color: black;
+}
+
+#nav a:hover {
+    color: brown;
+    background: linear-gradient(to right bottom,#f6d365, #fda085);
+}
+
+#nav a:active {
+    background-color: black;
+    color: white;
+}
+
+#nav > ul {
+    /* margin: 0px auto; */
+    list-style: none;
+    text-align: center;
+    
+}
+
+#nav ul li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    /* margin: auto; */
+}

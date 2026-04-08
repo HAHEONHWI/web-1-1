@@ -1,0 +1,107 @@
+.browntitle {
+    color : brown;
+}
+.Gfont {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+table {
+    /* border: 1px solid salmon ; */
+    /* border-collapse: collapse; */
+    text-align: center;
+    caption-side: bottom;
+    font-size: 18px;
+
+}
+[type='range'] {
+    accent-color: #333;
+}
+[type='radio'], [type='checkbox']{
+    accent-color: #1f1f1f;
+}
+p{
+    line-height: 2;
+}
+h1 {
+    text-shadow: 5px 5px 5px #b0fcd4;
+}
+/* table{
+    width: 300px;
+    height: 250px;
+} */
+ .table1{
+    float: left;
+    margin-right: 30px;
+ }
+h2{
+    text-align: center;
+    text-decoration: underline;
+    width: 300px;
+    height: 70px;
+    background-color: aqua;
+    color: black;
+    line-height: 70px;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+    
+}
+.box{
+    text-align: center;
+    text-decoration: underline;
+    width :30%;
+    height: 70px;
+    background-color: rgb(122, 79, 79);
+    color: white;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+th {
+    background-color: rgb(139, 103, 103);
+    color : rgba(0, 255, 0, 0.776)
+}
+td, thead{
+    width: 100px;
+    height: 30px;
+    border-bottom:1px dotted rgb(239, 152, 152);
+
+}
+td{
+    font-size: 0.8em;
+}
+caption{
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+tfoot{
+    background-color: rgb(213, 229, 244);
+    font-size: small;
+    font-style: italic;
+}
+form {
+    line-height: 1.8;
+}
+
+fieldset {
+    width: 400px;
+    margin-bottom: 4px;
+}
+textarea {
+    resize: none;
+    vertical-align: top;
+}
+
+button {
+    background-color: rgb(255, 151, 113);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#name:focus, #tel:focus {
+    background-color: yellow;    
+}

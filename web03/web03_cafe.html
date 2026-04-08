@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/웹개발/web02/web02_cafe.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>form Page</title>
+  </head>
+  <body>
+    <h1 class="Gfont" style="color: rgb(116, 41, 41)">
+      <i class="fi fi-rr-mug-hot-alt"></i>맛있는 카-페
+    </h1>
+    <h2 class="box">주문서 작성</h2>
+    <hr />
+    <form>
+  <fieldset>
+        <legend>주문자정보</legend>
+        <label
+          >주문자명 :
+          <input
+            type="text"
+            size="8"
+            maxlength="10"
+            autofocus
+            required id="name" />
+            </label>
+            <br />
+        <label for="tel">연락처 : </label
+        ><input type="tel" id="tel" value="010" maxlength="11" /><br />
+        <label>이메일 : <input type="email" placeholder="@포함" /></label><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>수령 방법 및 시간</legend>
+        <label
+          >수령 방식 :
+          <label
+            ><input
+              type="radio"
+              name="baedal"
+              value="takeout"
+              checked
+            />픽업</label
+          >
+          <label><input type="radio" name="baedal" value="deli" />배달</label
+          ><br />
+        </label>
+        <label>수령 날짜 : <input type="date" /></label><br />
+        <label>수령 시간 : <input type="time" /></label><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>메뉴 및 상세옵션</legend>
+        <label
+          >주문 메뉴 :
+          <select multiple size="1">
+            <option value="espressowater" selected>아메리카노</option>
+            <option value="latte">카페라떼</option>
+            <option value="str_smoothie">딸기 스무디</option>
+            <option value="greenteeemilk">녹차라떼</option>
+          </select> </label
+        ><br />
+        <label
+          >HoT,c01D 선택 :
+          <label><input type="radio" name="degree" value="hot" />HoT</label>
+          <label
+            ><input
+              type="radio"
+              name="degree"
+              value="cold"
+              checked
+            />c01D</label
+          ><br />
+        </label>
+        <label
+          >얼음의 양 : <input type="range" min="0" max="10" value="2" /></label
+        ><br />
+        <label
+          >추가옵션 :
+          <label
+            ><input type="checkbox" name="other" value="coffee" check />샷
+            추가</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="other"
+              value="iice"
+              checked
+            />간얼음</label
+          >
+          <label
+            ><input type="checkbox" name="other" value="wheep" />휘핑추
+            가</label
+          > </label
+        ><br />
+        <label
+          >주문 수량 : <input type="number" min="0" max="10" value="1" /></label
+        ><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>기타 요청사항</legend>
+        <!-- <label>요청 사항 : <input type="text" readonly></label><br> -->
+        <label
+          >요청 사항 :
+          <textarea rows="3" cols="10"> </textarea>
+        </label>
+        <br />
+        <label>주문 코드 : <input type="search" /></label><br />
+        <label>비밀 번호(주문기억용) : <input type="password" /></label><br />
+      </fieldset>
+
+      <!-- <input type="submit" value="주문하기" />
+      <input type="reset" value="취소하기" /> -->
+      
+      <button type="submit">주문하기</button>
+      <button type="reset">취소하기</button>
+      <a href="/웹개발/web02/web02_cafe.htm" target="_blank"
+      ><button type="button">이전 페이지로 돌아가기</button></a>
+ 
+
+      <br />
+      <p>
+        만일 수령한 상품에 문제가 있다면 즉시 반품 신청해주세요<br />
+        반품 신청시 상품의 상태를 사진으로 첨부해주세요
+      </p>
+      <input type="file" />
+    </form>
+  </body>
+</html>
