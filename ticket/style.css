@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+.bagel-fat-one-regular {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.name {
+    text-align: left;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 1%;
+}
+
+.explain {
+    text-align: left;
+    color: #4e4e4e;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+    margin: 0%;
+}
+
+h1 {
+    font-family: 'Bagel Fat One';
+    padding-top: 20px;
+    margin: 0px;
+    font-size: 80px;
+}
+
+#head {
+    text-align: center;
+    background: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+    color: #342d40;
+    margin-bottom: 0px;
+}
+.yellow {
+    text-align: center;
+    background-color: #f9f871;
+    color: #342d40;
+    font-weight: bold;
+    font-size: larger;
+}
+.section {
+    width: 300px;
+    height: 450px;
+    /* border: 3px double #342d40; */
+    /* border-style: solid dotted dashed double; */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    /* box-shadow: 2px 2px 3px 3px rgba(148, 148, 148, 0.513); */
+    /* border-radius: 20px; */
+    display: inline-block;
+    /* border-bottom-style: outset; */
+    margin-right: 20px;
+    vertical-align: top;
+    /* float: left; */
+    /* border-color: black aqua aquamarine orange; */
+    /* border-color: aquamarine; */
+}
+#art, #concert, #daehakro, #musical {
+    text-align: center;
+    margin-top: 0px;
+    /* background: url(../images/html.png) no-repeat 30% 20% fixed;
+    background-size: cover; */
+    /* background-image: url(../images/js.png);
+    background-repeat: no-repeat; 
+    background-position: 20% 10%;
+    background-attachment: fixed; */
+}
+.image{
+    width: 200px;
+    height: 300px;
+    /* border: 5px dotted gray; */
+    margin: 20px auto;
+    /* border-top-left-radius: 0px; */
+    /* background-color: rgba(255, 166, 0, 0.482); */
+    padding: 10px;
+}
+/*
+#book1 {
+    background: linear-gradient(to right, #fffed0, rgb(185, 255, 120));
+    float: left;
+
+}
+#book2 {
+    background: linear-gradient(to bottom right, #e9defa, #fbfcdb 20%);
+    float: right;
+}
+
+#book3 {
+    background: linear-gradient(103deg, #fbc2eb, #a6c1ee);
+    clear: both;
+    background: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple);
+} */
+#mus1 {
+    /* background-clip: border-box;  */
+    background-image: url(https://i.ibb.co/tMQBh6bL/image.png) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+#mus2 {
+    /* background-clip: border-box;  */
+    background-image: url(https://i.ibb.co/vCfH1fj4/image.png) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+#mus3 {
+    /* background-clip: border-box;  */
+    background-image: url(https://i.ibb.co/NXXfcBS/image.png) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+#img1 {
+    /* background-clip: border-box;  */
+    background-image: url(https://i.ibb.co/vxq394p0/image.png) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    /* background-clip: content-box; */
+    background-image: url(https://i.ibb.co/h1Y9bhyb/image.png);
+    background-size: cover;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+#img3{
+    /* background-clip: padding-box; */
+    background-image: url(https://i.ibb.co/CpPLWzpz/image.png);
+    background-size: cover;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+}
+#dk1 {
+    /* background-clip: border-box;  */
+    background-image: url(https://i.ibb.co/mrvTZxZH/image.png) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+#dk2 {
+    /* background-clip: border-box;  */
+    background-image: url(https://i.ibb.co/7Jq1xXmq/image.png) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+#dk3 {
+    /* background-clip: border-box;  */
+    background-image: url(https://i.ibb.co/27ZbNk3y/image.png) ;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+
+/* #gradation {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background:radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.879) 2%,  rgb(59, 255, 164) 60% , #6c6cff);
+} */
+
+/* #nav {
+    margin: 30px auto;
+} */
+
+.box{
+
+}
+td {
+    border:1px solid black;
+}
+form {
+    /* float: ; */
+    border: none;
+    width: 500px;
+}
+.imageaa {
+    float: left;
+}
+ .table1{
+    margin: 30px;
+    padding-left: 20px;
+    line-height: 40px;
+ }
+td {
+    margin-bottom: 10px;
+}
+.st {
+    text-decoration: none;
+    display: block;
+}
+.st:link,  st:visited {
+    color: black;
+}
+
+.st:hover {
+    color: green;
+}
+
+#nav a {
+    text-decoration: none;
+    display: block;
+}
+
+#nav a:link, #nav a:visited {
+    color: black;
+}
+
+#nav a:hover {
+    color: brown;
+}
+
+#nav a:active {
+    background-color: black;
+    color: white;
+}
+
+#nav > ul {
+    /* margin: 0px auto; */
+    list-style: none;
+    text-align: center;
+    
+}
+
+button {
+    background-color: rgb(255, 151, 113);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#nav ul li {
+    display: inline-block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+    /* margin: auto; */
+}
