@@ -51,6 +51,25 @@ h1 {
     font-weight: bold;
     font-size: larger;
 }
+.ticket {
+    width: 300px;
+    height: 450px;
+    /* border: 3px double #342d40; */
+    /* border-style: solid dotted dashed double; */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    /* box-shadow: 2px 2px 3px 3px rgba(148, 148, 148, 0.513); */
+    /* border-radius: 20px; */
+    display: inline-block;
+    /* border-bottom-style: outset; */
+    margin-right: 20px;
+    vertical-align: top;
+    /* float: left; */
+    /* border-color: black aqua aquamarine orange; */
+    /* border-color: aquamarine; */
+}
 .section {
     width: 300px;
     height: 450px;
@@ -185,7 +204,8 @@ h1 {
 } */
 
 .box{
-
+    text-align: center;
+    margin: 24px 0;
 }
 td {
     border:1px solid black;
@@ -193,15 +213,16 @@ td {
 form {
     /* float: ; */
     border: none;
-    width: 500px;
+    width: 100%;
 }
 .imageaa {
     float: left;
 }
  .table1{
-    margin: 30px;
-    padding-left: 20px;
+    width: 100%;
+    margin: 0;
     line-height: 40px;
+    border-collapse: collapse;
  }
 td {
     margin-bottom: 10px;
@@ -252,6 +273,52 @@ button {
     font-weight: bold;
     font-size: large;
 }
+
+.ticket-layout {
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    padding: 0 16px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.ticket-box {
+    width: 340px;
+    min-height: 450px;
+    border-radius: 12px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.form-box fieldset {
+    border: 1px solid #342d40;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.form-box input,
+.form-box select {
+    margin: 8px 0 12px;
+}
+
+
 
 #nav ul li {
     display: inline-block;
