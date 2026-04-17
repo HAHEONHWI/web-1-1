@@ -207,9 +207,9 @@ h1 {
     text-align: center;
     margin: 24px 0;
 }
-td {
+/* td {
     border:1px solid black;
-}
+} */
 form {
     /* float: ; */
     border: none;
@@ -265,9 +265,9 @@ td {
 }
 
 button {
-    background-color: rgb(255, 151, 113);
-    width: 200px;
-    height: 50px;
+    background-color: rgb(223, 148, 255);
+    width: 150px;
+    height: 30px;
     border: none;
     border-radius: 10px;
     font-weight: bold;
@@ -308,7 +308,7 @@ button {
 }
 
 .form-box fieldset {
-    border: 1px solid #342d40;
+    /* border: 1px solid #342d40; */
     padding: 12px;
     margin-bottom: 16px;
 }
