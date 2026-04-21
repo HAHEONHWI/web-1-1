@@ -4,16 +4,29 @@
   font-weight: 400;
   font-style: normal;
 }
-header > h1 {
+ h1 {
     font-family: "Jua";
+    padding-left: 30px;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
 #MainImg {
     width: 102%;
     height: 600px;
     background-image: url(../img/bg.jpg);
     background-size: cover;
     position: relative;
+}
+footer {
+    background-color: rgb(40, 50, 35);
+    color: white;
+}
+footer > p , .footerLogo {
+    padding-top: 10px;
+    padding-left: 30px;
 }
 
 * {
@@ -43,17 +56,13 @@ header {
     padding-top: 10px;
     padding-bottom: 0px;
 }
-header > nav > ul {
+header  nav  ul {
     list-style: none;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     padding: 0px;
     text-align: center;
 }
-
-/*
-test
-*/
 
 header > nav > ul > li {
     display: inline-block;
@@ -63,4 +72,33 @@ header > nav > ul > li {
     font-size: 18px;
     text-align: center;
     line-height: 50px;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+
+.subMenu li {
+    width: 200px;
+    height: 50px;
+}
+nav>ul>li:hover, nav>ul>li>.subMenu > li:hover {
+    background-color: rgba(195, 195, 195, 0.583);
+}
+
+nav>ul>li:hover .subMenu {
+    display: block;
+
+}
+
+footer {
+    width: 100%;
+    height: 250px;
 }
