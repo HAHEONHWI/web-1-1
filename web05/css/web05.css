@@ -11,7 +11,7 @@ header > h1 {
 #MainImg {
     width: 102%;
     height: 600px;
-    background-image: url(https://www.morningcalm.co.kr/uploaded/banner/e5acb674d24cf95588fe2662b2d78302.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: cover;
 }
 
@@ -25,11 +25,21 @@ header > h1 {
 
 }
 
+#onImgText {
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    /* left: 100px; */
+    /* top: 200px; */
+    bottom: 50px;
+}
+
 header {
     width: 100%;
     padding-left: 10px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 header > nav > ul {
     list-style: none;
