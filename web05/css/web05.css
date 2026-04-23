@@ -1,183 +1,291 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 .jua-regular {
+    /* Jua 글꼴 적용 */
   font-family: "Jua", sans-serif;
+    /* 기본 굵기 사용 */
   font-weight: 400;
+    /* 기울임 없이 기본 스타일 */
   font-style: normal;
 }
  h1 {
+        /* 제목에 Jua 글꼴 적용 */
     font-family: "Jua";
+        /* 제목 왼쪽 여백 */
     padding-left: 30px;
 }
 a {
+        /* 링크 밑줄 제거 */
     text-decoration: none;
+        /* 기본 링크 글자색 */
     color: black;
+        /* 클릭 영역 확장을 위한 블록 처리 */
     display: block;
 }
 
 .box {
+        /* 카드 너비 고정 */
     width: 400px;
+        /* 카드 높이 고정 */
     height: 600px;
     /* border-style: solid dotted dashed double; */
+    /* 카드 상하 여백, 좌우 자동 가운데 정렬 */
     margin: 30px auto;
+    /* 카드 내부 여백 */
     padding: 20px;
+    /* 패딩 포함 크기 계산 */
     box-sizing: border-box;
+    /* 카드 그림자 효과 */
     box-shadow: 2px 2px 3px 3px rgba(148, 148, 148, 0.513);
+    /* 카드 가로 배치를 위한 인라인 블록 */
     display: inline-block;
+    /* 하단 테두리 입체 효과 */
     border-bottom-style: outset;
+    /* 카드 오른쪽 간격 */
     margin-right: 20px;
+    /* 상단 기준 정렬 */
     vertical-align: top;
+    /* 카드 내부 텍스트 중앙 정렬 */
     text-align: center;
+    /* 내부 절대 배치 요소의 기준점 */
     position: relative;
 }
 
 .title {
+    /* 제목에 그림자 추가 */
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.693);
+    /* 제목 글자색 */
     color: white;
+    /* 제목 굵기 */
     font-weight: 600;
+    /* 제목 글자 크기 */
     font-size: 45px;
+    /* 카드 안 절대 위치 배치 상위요소에 릴레이티브 해야함 */
     position: absolute;
+    /* 상단에서 200px 위치 */
     top: 200px; 
+    /* 좌측에서 161px 위치 */
     left: 161px; 
 
 }
 
 .more {
+    /* 반투명 배경색 */
     background-color: rgba(0, 0, 0, 0.286);
+    /* 버튼 모서리 둥글게 */
     border-radius: 20px;
+    /* 버튼 글자색 */
     color: white;
+    /* 버튼 글자 크기 */
     font-size: 20px;
+    /* 버튼 텍스트 중앙 정렬 */
     text-align: center;
+    /* 카드 안 절대 위치 배치 */
     position: absolute;
+    /* 상단에서 360px 위치 */
     top: 360px; 
+    /* 좌측에서 146px 위치 */
     left: 146px; 
+    /* 좌측 내부 여백 */
     padding-left: 20px;
+    /* 우측 내부 여백 */
     padding-right: 20px;
+    /* 상단 내부 여백 */
     padding-top: 12px;
+    /* 하단 내부 여백 */
     padding-bottom: 12px;
 }
 
 .line {
+    /* 설명 문구 그림자 효과 */
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.693);
+    /* 설명 영역 너비 */
     width: 300px;
+    /* 설명 글자색 */
     color: white;
+    /* 설명 굵기 */
     font-weight: 400;
+    /* 설명 글자 크기 */
     font-size: 20px;
+    /* 카드 안 절대 위치 배치 */
     position: absolute;
+    /* 상단에서 270px 위치 */
     top: 270px; 
+    /* 좌측에서 50px 위치 */
     left: 50px; 
+    /* 설명 텍스트 중앙 정렬 */
     text-align: center;
 }
 
 #img1 {
+    /* 첫 번째 카드 배경 이미지 지정 */
     background-image: url(../img/box1.jpg);
-        background-size: cover;
+    /* 배경을 박스에 꽉 차게 표시 */
+    background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 이미지 반복 제거 */
     background-repeat: no-repeat;
 }
 #img2 {
+    /* 두 번째 카드 배경 이미지 지정 */
     background-image: url(../img/box2.jpg);
+    /* 배경을 박스에 꽉 차게 표시 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 이미지 반복 제거 */
     background-repeat: no-repeat;
 }
 #img3 {
+    /* 세 번째 카드 배경 이미지 지정 */
     background-image: url(../img/box3.jpg);
+    /* 배경을 박스에 꽉 차게 표시 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 이미지 반복 제거 */
     background-repeat: no-repeat;
 }
 #second {
+    /* 내부 텍스트 중앙 정렬 */
     text-align: center;
+    /* 왼쪽 바깥 여백 */
     margin-left: 30px;
+    /* 오른쪽 바깥 여백 */
     margin-right: 30px;
 }
 
 #MainImg {
+    /* 메인 배경 영역 너비 */
     width: 102%;
+    /* 메인 배경 영역 높이 */
     height: 600px;
+    /* 메인 배경 이미지 지정 */
     background-image: url(../img/bg.jpg);
+    /* 배경을 영역에 꽉 차게 표시 */
     background-size: cover;
+    /* 내부 절대 배치 요소의 기준점 */
     position: relative;
 }
 footer {
+    /* 푸터 배경색 */
     background-color: rgb(40, 50, 35);
+    /* 푸터 글자색 */
     color: white;
 }
 footer > p , .footerLogo {
+    /* 상단 내부 여백 */
     padding-top: 10px;
+    /* 왼쪽 내부 여백 */
     padding-left: 30px;
 }
 
 * {
+    /* 모든 요소 기본 패딩 제거 */
     padding: 0px;
+    /* 모든 요소 기본 마진 제거 */
     margin: 0px;
 }
 
 #logo {
+    /* 로고 이미지 너비 */
     width: 40px;
 
 }
 
 #onImgText {
+    /* 메인 문구 글자 크기 */
     font-size: 50px;
+    /* 메인 문구 굵게 표시 */
     font-weight: bolder;
+    /* 반투명 흰색 글자 */
     color: rgba(255, 255, 255, 0.8);
+    /* 배경 이미지 위 절대 위치 배치 */
     position: absolute;
     /* left: 100px;
     top: 200px; */
+    /* 하단에서 50px 위치 */
     bottom: 50px;
+    /* 좌측에서 70px 위치 */
     left: 70px; 
 }
 
 header {
+    /* 헤더 너비를 화면에 맞춤 */
     width: 100%;
+    /* 헤더 왼쪽 내부 여백 */
     padding-left: 10px;
+    /* 헤더 상단 내부 여백 */
     padding-top: 10px;
+    /* 헤더 하단 내부 여백 */
     padding-bottom: 0px;
 }
 header  nav  ul {
+    /* 목록 불릿 제거 */
     list-style: none;
+    /* 상단 구분선 */
     border-top: 1px solid gray;
+    /* 하단 구분선 */
     border-bottom: 1px solid gray;
+    /* 기본 패딩 제거 */
     padding: 0px;
+    /* 메뉴 항목 중앙 정렬 */
     text-align: center;
 }
 
 header > nav > ul > li {
+    /* 메뉴 항목 가로 배치 */
     display: inline-block;
+    /* 메뉴 항목 너비 */
     width: 200px;
+    /* 메뉴 항목 높이 */
     height: 50px;
+    /* 메뉴 글자 굵기 지정 */
     font-weight: 600px;
+    /* 메뉴 글자 크기 */
     font-size: 18px;
+    /* 메뉴 글자 중앙 정렬 */
     text-align: center;
+    /* 세로 중앙 정렬 */
     line-height: 50px;
 }
 
 nav>ul>li {
+    /* 하위 메뉴 절대 배치 기준점 */
     position: relative;
 }
 
 .subMenu {
+    /* 기본 상태에서 하위 메뉴 숨김 */
     display: none;
+    /* 부모 메뉴 기준 절대 배치 */
     position: absolute;
+    /* 다른 요소 위로 표시 */
     z-index: 1;
+    /* 하위 메뉴 배경색 */
     background-color: white;
 }
 
 .subMenu li {
+    /* 하위 메뉴 항목 너비 */
     width: 200px;
+    /* 하위 메뉴 항목 높이 */
     height: 50px;
 }
 nav>ul>li:hover, nav>ul>li>.subMenu > li:hover {
+    /* 호버 시 메뉴 배경 강조 */
     background-color: rgba(195, 195, 195, 0.583);
 }
 
 nav>ul>li:hover .subMenu {
+    /* 호버 시 하위 메뉴 표시 */
     display: block;
 
 }
 
 footer {
+    /* 푸터 너비를 화면에 맞춤 */
     width: 100%;
+    /* 푸터 높이 고정 */
     height: 250px;
 }
