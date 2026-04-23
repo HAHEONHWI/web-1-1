@@ -1,47 +1,74 @@
 @font-face {
+    /* 웹폰트에서 사용할 글꼴 이름 정의 */
     font-family: 'BookkMyungjo';
+    /* CDN에 있는 폰트 파일 경로와 포맷 지정 */
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    /* 기본 굵기를 400(regular)으로 설정 */
     font-weight: 400;
+    /* 폰트 로딩 전 시스템 폰트로 먼저 렌더링 후 교체 */
     font-display: swap;
 }
 
 
 h1 {
+    /* 제목에 커스텀 명조체 적용 */
     font-family: 'BookkMyungjo';
+    /* 상단 여백으로 헤더와 간격 확보 */
     padding-top: 20px;
 }
 
 #head {
+    /* 헤더 내부 텍스트 중앙 정렬 */
     text-align: center;
+    /* 헤더 배경색 지정 */
     background-color: #f9f871;
+    /* 헤더 글자색 지정 */
     color: #342d40;
 }
 .yellow {
+    /* 텍스트 중앙 정렬 */
     text-align: center;
+    /* 강조용 노란 배경색 */
     background-color: #f9f871;
+    /* 가독성을 위한 진한 글자색 */
     color: #342d40;
+    /* 텍스트 굵게 표시 */
     font-weight: bold;
+    /* 기본보다 큰 글자 크기 사용 */
     font-size: larger;
 }
 .section {
+    /* 카드 너비 고정 */
     width: 300px;
+    /* 카드 높이 고정 */
     height: 480px;
+    /* 이중선 테두리 지정 */
     border: 3px double #342d40;
     /* border-style: solid dotted dashed double; */
+    /* 상하 30px, 좌우 자동으로 가운데 배치 */
     margin: 30px auto;
+    /* 내부 콘텐츠 여백 */
     padding: 20px;
+    /* 패딩/테두리를 포함해 width, height 계산 */
     box-sizing: border-box;
+    /* 카드 그림자 효과 */
     box-shadow: 2px 2px 3px 3px rgba(148, 148, 148, 0.513);
+    /* 모서리를 둥글게 처리 */
     border-radius: 20px;
+    /* 한 줄에 여러 카드가 나열되도록 인라인 블록 사용 */
     display: inline-block;
+    /* 하단 테두리에 입체감 효과 추가 */
     border-bottom-style: outset;
+    /* 오른쪽 카드와의 간격 */
     margin-right: 20px;
+    /* 카드 상단 기준으로 정렬 */
     vertical-align: top;
     /* float: left; */
     /* border-color: black aqua aquamarine orange; */
     /* border-color: aquamarine; */
 }
 #main {
+    /* 메인 영역 내부 요소 중앙 정렬 */
     text-align: center;
 
     /* background: url(../images/html.png) no-repeat 30% 20% fixed;
@@ -52,28 +79,37 @@ h1 {
     background-attachment: fixed; */
 }
 .image{
+    /* 이미지 박스 너비 */
     width: 200px;
+    /* 이미지 박스 높이 */
     height: 200px;
+    /* 정원을 만들기 위해 반지름 50% 적용 */
     border-radius: 50%;
+    /* 점선 테두리로 이미지 강조 */
     border: 5px dotted gray;
+    /* 상하 20px, 좌우 자동으로 가운데 배치 */
     margin: 20px auto;
     /* border-top-left-radius: 0px; */
     /* background-color: rgba(255, 166, 0, 0.482); */
+    /* 테두리와 이미지 사이 내부 여백 */
     padding: 10px;
 }
 
 #book1 {
+    /* 좌→우 방향의 연두 계열 그라데이션 배경 */
     background: linear-gradient(to right, #fffed0, rgb(185, 255, 120));
     /* float: left; */
 
 }
 
 #book2 {
+    /* 우하단 방향의 파스텔 그라데이션 배경 */
     background: linear-gradient(to bottom right, #e9defa, #fbfcdb 20%);
     /* float: right; */
 }
 
 #book3 {
+    /* 103도 각도의 핑크/블루 그라데이션 배경 */
     background: linear-gradient(103deg, #fbc2eb, #a6c1ee);
     /* clear: both; */
     /* background: linear-gradient(to bottom right, red, orange, yellow, green, blue, purple); */
@@ -81,32 +117,48 @@ h1 {
 
 #img1 {
     /* background-clip: border-box;  */
+    /* 첫 번째 책 표지 이미지를 배경으로 삽입 */
     background-image: url(https://image.yes24.com/goods/11681152/XL) ;
+    /* 이미지가 원형 영역을 빈틈없이 채우도록 크기를 자동 조정 */
     background-size: cover;
+    /* 배경 이미지의 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 이미지 반복을 막아 한 번만 표시 */
     background-repeat: no-repeat;
 }
 
 #img2 {
     /* background-clip: content-box; */
+    /* 두 번째 책 표지 이미지를 배경으로 삽입 */
     background-image: url(https://image.yes24.com/goods/116586056/XL);
+    /* 이미지가 원형 영역을 빈틈없이 채우도록 크기를 자동 조정 */
     background-size: cover;
+    /* 배경 이미지의 기준 영역을 content-box로 설정 */
     background-origin: content-box;
+    /* 배경 이미지 반복을 막아 한 번만 표시 */
     background-repeat: no-repeat;
 }
 
 #img3{
     /* background-clip: padding-box; */
+    /* 세 번째 책 표지 이미지를 배경으로 삽입 */
     background-image: url(https://image.yes24.com/goods/2312211/XL);
+    /* 이미지가 원형 영역을 빈틈없이 채우도록 크기를 자동 조정 */
     background-size: cover;
+    /* 배경 이미지의 기준 영역을 padding-box로 설정 */
     background-origin: padding-box;
+    /* 배경 이미지 반복을 막아 한 번만 표시 */
     background-repeat: no-repeat;
 }
 
 #gradation {
+    /* 원형 형태로 보이도록 반지름 50% 적용 */
     border-radius: 50%;
+    /* 원형 배경 높이 지정 */
     height: 400px;
+    /* 원형 배경 너비 지정 */
     width: 400px;
+    /* 중심이 약간 좌상단인 방사형 그라데이션 배경 */
     background:radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.879) 2%,  rgb(59, 255, 164) 60% , #6c6cff);
 }
 
@@ -114,37 +166,52 @@ h1 {
     margin: 30px auto;
 } */
 #nav a {
+    /* 링크 밑줄 제거 */
     text-decoration: none;
+    /* 링크 영역 전체를 블록으로 만들어 클릭 영역 확장 */
     display: block;
 }
 
 #nav a:link, #nav a:visited {
+    /* 기본/방문 링크 색상 통일 */
     color: black;
 }
 
 #nav a:hover {
+    /* 마우스 오버 시 글자색 변경 */
     color: brown;
+    /* 마우스 오버 시 그라데이션 배경 적용 */
     background: linear-gradient(to right bottom,#f6d365, #fda085);
 }
 
 #nav a:active {
+    /* 클릭 중 배경을 검정으로 변경 */
     background-color: black;
+    /* 클릭 중 글자색을 흰색으로 변경 */
     color: white;
 }
 
 #nav > ul {
     /* margin: 0px auto; */
+    /* 목록 앞 불릿 제거 */
     list-style: none;
+    /* 메뉴 항목 전체 중앙 정렬 */
     text-align: center;
     
 }
 
 #nav ul li {
+    /* 가로 메뉴 배치를 위해 인라인 블록 사용 */
     display: inline-block;
+    /* 각 메뉴 테두리 */
     border: 1px solid black;
+    /* 메뉴 버튼 너비 고정 */
     width: 200px;
+    /* 메뉴 버튼 높이 고정 */
     height: 40px;
+    /* 메뉴 텍스트 중앙 정렬 */
     text-align: center;
+    /* 높이와 같은 줄간격으로 수직 중앙 정렬 */
     line-height: 40px;
     /* margin: auto; */
 }

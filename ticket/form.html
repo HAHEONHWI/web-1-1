@@ -12,9 +12,11 @@
     <title>form Page</title>
   </head>
   <body>
+    <!-- 페이지 헤더: 서비스 제목과 상단 카테고리 내비게이션 -->
     <div id="head">
         <h1>은밀한 티켓 할인점</h1>
     
+    <!-- 같은 페이지 내 섹션으로 이동하는 앵커 메뉴 -->
     <div id="nav">
         <ul>
             <li><a href="#musical">뮤지컬</a></li>
@@ -24,11 +26,15 @@
         </ul>
     </div>
     </div>
+
+            <!-- 티켓 상세 레이아웃: 포스터/공연 정보/예매 폼 3단 구성 -->
             <div class="ticket-layout">
+              <!-- 공연 포스터 이미지 영역 -->
               <section class="ticket-box image-box">
                 <img src="https://i.ibb.co/tMQBh6bL/image.png" alt="뮤지컬 데스노트 포스터" class="poster-image" />
               </section>
 
+              <!-- 공연 기본 정보 및 좌석 가격표 영역 -->
               <section class="ticket-box info-box">
                 <table class="table1">
                   <colgroup>
@@ -68,22 +74,27 @@
                 </table>
               </section>
 
+              <!-- 예매 입력 폼 영역 -->
               <section class="ticket-box form-box">
                 <form>
                   <fieldset>
                     <legend>예약 정보</legend>
 
+                    <!-- 상품 선택: 현재는 단일 상품(데스노트) 고정 제공 -->
                     <label for="product">예매 상품:</label><br />
                     <select id="product" name="product">
                       <option value="death-note" selected>뮤지컬 데스노트</option>
                     </select><br />
 
+                    <!-- 예매자 이름 입력: 필수, 최대 10자 -->
                     <label for="name">예매자 성명 :</label>
                     <input type="text" id="name" size="8" maxlength="10" autofocus required /><br />
 
+                    <!-- 연락처 입력: 기본값 010으로 시작 -->
                     <label for="tel">예매자 연락처 :</label>
                     <input type="tel" id="tel" value="010" maxlength="11" /><br />
 
+                    <!-- 좌석 등급 선택: 가격은 좌측 정보 테이블 참고 -->
                     <label for="seat-grade">좌석 등급 선택:</label>
                     <select id="seat-grade" name="seat-grade">
                       <option value="vip" selected>VIP석</option>
@@ -92,10 +103,12 @@
                       <option value="a">A석</option>
                     </select><br />
 
+                    <!-- 예매 수량 입력: 0~10매 범위 제한 -->
                     <label for="ticket-count">예매 수량 :</label>
                     <input type="number" id="ticket-count" min="0" max="10" value="1" />
                   </fieldset>
 
+                  <!-- 폼 전송/초기화 버튼 -->
                   <button type="submit">예약하기</button>
                   <button type="reset">취소하기</button>
                 </form>
