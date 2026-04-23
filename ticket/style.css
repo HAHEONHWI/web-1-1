@@ -1,96 +1,146 @@
 @font-face {
+    /* 웹폰트 이름 등록 */
     font-family: 'BookkMyungjo';
+    /* 외부 CDN 폰트 파일 경로와 형식 지정 */
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    /* 기본 글꼴 굵기 설정 */
     font-weight: 400;
+    /* 폰트 로딩 전 대체 폰트 표시 후 교체 */
     font-display: swap;
 }
 .bagel-fat-one-regular {
+  /* 클래스에 Bagel Fat One 글꼴 적용 */
   font-family: "Bagel Fat One", system-ui;
+  /* 일반 굵기 사용 */
   font-weight: 400;
+  /* 기울임 없이 기본 스타일 사용 */
   font-style: normal;
 }
 
 .name {
+    /* 텍스트 왼쪽 정렬 */
     text-align: left;
+    /* 제목 텍스트를 굵게 강조 */
     font-weight: bolder;
+    /* 기본보다 큰 글자 크기 */
     font-size: larger;
+    /* 아래 요소와 간격 최소화 */
     margin-bottom: 1%;
 }
 
 .explain {
+    /* 설명 문구 왼쪽 정렬 */
     text-align: left;
+    /* 본문보다 연한 회색 글자색 */
     color: #4e4e4e;
+    /* 설명 텍스트 굵게 표시 */
     font-weight: bold;
+    /* 기본 마진 제거 */
     margin: 0%;
 }
 
 .title {
+    /* 섹션 제목 강조 */
     font-weight: bolder;
+    /* 섹션 제목 중앙 정렬 */
     text-align: center;
+    /* 큰 제목 크기 지정 */
     font-size: 40px;
+    /* 기본 마진 제거 */
     margin: 0%;
 }
 
 h1 {
+    /* 메인 타이틀 글꼴 지정 */
     font-family: 'Bagel Fat One';
+    /* 상단 내부 여백 */
     padding-top: 20px;
+    /* 기본 바깥 여백 제거 */
     margin: 0px;
+    /* 메인 타이틀 크기 확대 */
     font-size: 80px;
 }
 
 #head {
+    /* 헤더 내부 텍스트 중앙 정렬 */
     text-align: center;
+    /* 헤더 배경 그라데이션 설정 */
     background: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+    /* 헤더 글자색 지정 */
     color: #342d40;
+    /* 헤더 아래쪽 여백 제거 */
     margin-bottom: 0px;
 }
 .yellow {
+    /* 중앙 정렬 */
     text-align: center;
+    /* 노란 배경색 적용 */
     background-color: #f9f871;
+    /* 어두운 글자색으로 대비 확보 */
     color: #342d40;
+    /* 굵게 표시 */
     font-weight: bold;
+    /* 기본보다 큰 글자 크기 */
     font-size: larger;
 }
 .ticket {
+    /* 카드 너비 고정 */
     width: 300px;
+    /* 카드 높이 고정 */
     height: 450px;
     /* border: 3px double #342d40; */
     /* border-style: solid dotted dashed double; */
+    /* 카드 위쪽 여백 제거 */
     margin-top: 0px;
+    /* 카드 아래쪽 간격 */
     margin-bottom: 10px;
     /* padding: 20px; */
+    /* 패딩/테두리 포함 크기 계산 */
     box-sizing: border-box;
     /* box-shadow: 2px 2px 3px 3px rgba(148, 148, 148, 0.513); */
     /* border-radius: 20px; */
+    /* 가로 배치를 위한 인라인 블록 */
     display: inline-block;
     /* border-bottom-style: outset; */
+    /* 카드 간 오른쪽 간격 */
     margin-right: 20px;
+    /* 상단 기준 정렬 */
     vertical-align: top;
     /* float: left; */
     /* border-color: black aqua aquamarine orange; */
     /* border-color: aquamarine; */
 }
 .section {
+    /* 카드 너비 고정 */
     width: 300px;
+    /* 카드 높이 고정 */
     height: 450px;
     /* border: 3px double #342d40; */
     /* border-style: solid dotted dashed double; */
+    /* 카드 위쪽 여백 제거 */
     margin-top: 0px;
+    /* 카드 아래쪽 간격 */
     margin-bottom: 10px;
     /* padding: 20px; */
+    /* 패딩/테두리 포함 크기 계산 */
     box-sizing: border-box;
     /* box-shadow: 2px 2px 3px 3px rgba(148, 148, 148, 0.513); */
     /* border-radius: 20px; */
+    /* 가로 배치를 위한 인라인 블록 */
     display: inline-block;
     /* border-bottom-style: outset; */
+    /* 카드 간 오른쪽 간격 */
     margin-right: 20px;
+    /* 상단 기준 정렬 */
     vertical-align: top;
     /* float: left; */
     /* border-color: black aqua aquamarine orange; */
     /* border-color: aquamarine; */
 }
 #art, #concert, #daehakro, #musical {
+    /* 각 섹션 내부 요소 중앙 정렬 */
     text-align: center;
+    /* 섹션 상단 여백 제거 */
     margin-top: 0px;
     /* background: url(../images/html.png) no-repeat 30% 20% fixed;
     background-size: cover; */
@@ -100,12 +150,16 @@ h1 {
     background-attachment: fixed; */
 }
 .image{
+    /* 포스터 박스 너비 */
     width: 200px;
+    /* 포스터 박스 높이 */
     height: 300px;
     /* border: 5px dotted gray; */
+    /* 상하 20px, 좌우 자동 가운데 정렬 */
     margin: 20px auto;
     /* border-top-left-radius: 0px; */
     /* background-color: rgba(255, 166, 0, 0.482); */
+    /* 이미지 주변 내부 여백 */
     padding: 10px;
 }
 /*
@@ -126,68 +180,104 @@ h1 {
 } */
 #mus1 {
     /* background-clip: border-box;  */
+    /* 뮤지컬 1 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/tMQBh6bL/image.png) ;
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 #mus2 {
     /* background-clip: border-box;  */
+    /* 뮤지컬 2 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/vCfH1fj4/image.png) ;
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 #mus3 {
     /* background-clip: border-box;  */
+    /* 뮤지컬 3 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/NXXfcBS/image.png) ;
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 
 #img1 {
     /* background-clip: border-box;  */
+    /* 콘서트 1 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/vxq394p0/image.png) ;
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 
 #img2 {
     /* background-clip: content-box; */
+    /* 콘서트 2 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/h1Y9bhyb/image.png);
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 content-box로 설정 */
     background-origin: content-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 
 #img3{
     /* background-clip: padding-box; */
+    /* 콘서트 3 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/CpPLWzpz/image.png);
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 padding-box로 설정 */
     background-origin: padding-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 #dk1 {
     /* background-clip: border-box;  */
+    /* 연극 1 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/mrvTZxZH/image.png) ;
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 #dk2 {
     /* background-clip: border-box;  */
+    /* 연극 2 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/7Jq1xXmq/image.png) ;
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 #dk3 {
     /* background-clip: border-box;  */
+    /* 연극 3 포스터 이미지 지정 */
     background-image: url(https://i.ibb.co/27ZbNk3y/image.png) ;
+    /* 컨테이너를 꽉 채우도록 배경 크기 조정 */
     background-size: cover;
+    /* 배경 이미지 기준 영역을 border-box로 설정 */
     background-origin: border-box;
+    /* 배경 반복 제거 */
     background-repeat: no-repeat;
 }
 
@@ -204,7 +294,9 @@ h1 {
 } */
 
 .box{
+    /* 박스 내부 텍스트 중앙 정렬 */
     text-align: center;
+    /* 상하 여백 24px, 좌우 0 */
     margin: 24px 0;
 }
 /* td {
@@ -212,122 +304,181 @@ h1 {
 } */
 form {
     /* float: ; */
+    /* 폼 테두리 제거 */
     border: none;
+    /* 부모 너비에 맞춰 폼 확장 */
     width: 100%;
 }
 .imageaa {
+    /* 요소를 왼쪽으로 띄워 배치 */
     float: left;
 }
  .table1{
+    /* 테이블 가로폭 100% 사용 */
     width: 100%;
+    /* 기본 바깥 여백 제거 */
     margin: 0;
+    /* 행 높이 확보를 위한 줄간격 */
     line-height: 40px;
+    /* 셀 경계를 하나로 합침 */
     border-collapse: collapse;
  }
 td {
+    /* 셀 하단 여백 지정 */
     margin-bottom: 10px;
 }
 .st {
+    /* 링크 밑줄 제거 */
     text-decoration: none;
+    /* 링크 전체를 블록화해 클릭 영역 확장 */
     display: block;
 }
 .st:link,  st:visited {
+    /* 기본/방문 링크 색상 통일 */
     color: black;
 }
 
 .st:hover {
+    /* 마우스 오버 시 초록색 강조 */
     color: green;
 }
 
 #nav a {
+    /* 링크 밑줄 제거 */
     text-decoration: none;
+    /* 메뉴 링크를 블록으로 만들어 클릭 영역 확장 */
     display: block;
 }
 
 #nav a:link, #nav a:visited {
+    /* 기본/방문 링크 색상 통일 */
     color: black;
 }
 
 #nav a:hover {
+    /* 마우스 오버 시 갈색으로 강조 */
     color: brown;
 }
 
 #nav a:active {
+    /* 클릭 중 배경색 변경 */
     background-color: black;
+    /* 클릭 중 글자색 변경 */
     color: white;
 }
 
 #nav > ul {
     /* margin: 0px auto; */
+    /* 목록 불릿 제거 */
     list-style: none;
+    /* 메뉴 목록 중앙 정렬 */
     text-align: center;
     
 }
 
 button {
+    /* 버튼 배경색 지정 */
     background-color: rgb(223, 148, 255);
+    /* 버튼 너비 고정 */
     width: 150px;
+    /* 버튼 높이 고정 */
     height: 30px;
+    /* 기본 테두리 제거 */
     border: none;
+    /* 모서리 둥글게 처리 */
     border-radius: 10px;
+    /* 버튼 텍스트 굵게 */
     font-weight: bold;
+    /* 버튼 텍스트 크기 확대 */
     font-size: large;
 }
 
 .ticket-layout {
+    /* 최대 레이아웃 폭 제한 */
     max-width: 1200px;
+    /* 가운데 정렬 및 아래 여백 */
     margin: 0 auto 30px;
+    /* 좌우 내부 여백 */
     padding: 0 16px;
+    /* 자식 박스를 가로 배치하는 플렉스 컨테이너 */
     display: flex;
+    /* 박스 사이 간격 */
     gap: 20px;
+    /* 가로 중앙 정렬 */
     justify-content: center;
+    /* 높이 기준 늘려 정렬 */
     align-items: stretch;
+    /* 한 줄 배치 유지 */
     flex-wrap: nowrap;
 }
 
 .ticket-box {
+    /* 카드 너비 고정 */
     width: 340px;
+    /* 카드 최소 높이 지정 */
     min-height: 450px;
+    /* 카드 모서리 둥글게 */
     border-radius: 12px;
+    /* 카드 내부 여백 */
     padding: 16px;
+    /* 패딩 포함 크기 계산 */
     box-sizing: border-box;
 }
 
 .image-box {
+    /* 포스터 중앙 정렬을 위한 플렉스 사용 */
     display: flex;
+    /* 세로 중앙 정렬 */
     align-items: center;
+    /* 가로 중앙 정렬 */
     justify-content: center;
 }
 
 .poster-image {
+    /* 부모 너비를 기준으로 꽉 채움 */
     width: 100%;
+    /* 최대 표시 너비 제한 */
     max-width: 300px;
+    /* 비율 유지 자동 높이 */
     height: auto;
+    /* 이미지 하단 여백 제거를 위한 블록 처리 */
     display: block;
+    /* 포스터 모서리 둥글게 */
     border-radius: 8px;
 }
 
 .form-box fieldset {
     /* border: 1px solid #342d40; */
+    /* 필드셋 내부 여백 */
     padding: 12px;
+    /* 필드셋 아래 여백 */
     margin-bottom: 16px;
 }
 
 .form-box input,
 .form-box select {
+    /* 입력 요소 상하 간격 통일 */
     margin: 8px 0 12px;
 }
 
 
 
 #nav ul li {
+    /* 메뉴 항목 가로 배치 */
     display: inline-block;
+    /* 상단 테두리 */
     border-top: 1px solid black;
+    /* 하단 테두리 */
     border-bottom: 1px solid black;
+    /* 메뉴 항목 너비 */
     width: 200px;
+    /* 메뉴 항목 높이 */
     height: 40px;
+    /* 텍스트 가로 중앙 정렬 */
     text-align: center;
+    /* line-height로 세로 중앙 정렬 */
     line-height: 40px;
+    /* 메뉴 아래 간격 */
     margin-bottom: 10px;
     /* margin: auto; */
 }
