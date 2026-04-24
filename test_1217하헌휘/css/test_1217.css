@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+.jua-regular {
+    /* Jua 글꼴 적용 */
+  font-family: "Jua", sans-serif;
+    /* 기본 굵기 사용 */
+  font-weight: 400;
+    /* 기울임 없이 기본 스타일 */
+  font-style: normal;
+}
+ h1 {
+        /* 제목에 Jua 글꼴 적용 */
+    font-family: "Jua";
+        /* 제목 왼쪽 여백 */
+    padding-left: 30px;
+}
+
+
+* {
+    /* 모든 요소 기본 패딩 제거 */
+    padding: 0px;
+    /* 모든 요소 기본 마진 제거 */
+    margin: 0px;
+}
+
+
+header {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+header nav  ul {
+    list-style: none;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 0px;
+    text-align: center;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-weight: 600px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav>ul>li {
+    position: relative;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+
+.subMenu li {
+    width: 200px;
+    height: 50px;
+}
+nav>ul>li:hover, nav>ul>li>.subMenu > li:hover {
+    background-color: rgba(195, 195, 195, 0.583);
+}
+
+nav>ul>li:hover .subMenu {
+    display: block;
+
+}
+#logo {
+    width: 40px;
+
+}
+
+#onImgText {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 350px;
+    left: 70px; 
+}
+
+#MainImg {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+}
+#table111 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+footer h1 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.box {
+    max-width: 1200px;
+    margin: 0 auto 30px;
+    padding: 0 16px;
+    /* display: flex; */
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+div > p {
+    font-size: 19px;
+    font-weight: bold;
+}
+.image-box {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.poster-image {
+    display: block;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+.table fieldset {
+    border: 1px solid black;
+    padding: 12px;
+
+}
+table {
+    display: inline-block;
+    margin: 30px;
+    line-height: 40px;
+    border-collapse: collapse;
+    border: 1px solid black;
+ }
+main {
+    margin-top: 20px;
+}
+
+td {
+    padding: 3px;
+}
+.box-layout {
+    margin-top: 30px;
+    width: 340px;
+    min-height: 450px;
+    /* border: 3px solid #342d40; */
+    margin: 0 auto 30px;
+    padding: 0 16px;
+    gap: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+.red {
+    color: red;
+}
+#box {
+    text-align: center;
+}
+footer {
+    background-color: rgb(40, 50, 35);
+    color: white;
+    padding-bottom: 30px;
+}
+
+footer > p, .footerLogo {
+    padding-top : 10px;
+    padding-left: 30px;
+}
+
+.form-box fieldset {
+    padding: 12px;
+    margin-bottom: 0px;
+}
+
+.form-box input, .form-box select {
+    margin: 8px 0 12px;
+}
+
+button {
+    background-color :rgb(223, 148, 255);;
+    width: 140px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    margin: 3px;
+}

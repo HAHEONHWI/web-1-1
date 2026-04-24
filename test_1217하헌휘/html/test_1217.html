@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/test_1217.css">
+    <link rel="icon" href="../images/logo.png"> <!---파비콘-->
+    <title>수행평가 미술관</title>
+</head>
+<body>
+    <header> <!--- 시멘틱코드 header영역-->
+        <h1 >
+        <img src="../images/logo.png" alt="Logo Image" id="logo">
+        수행평가 미술관
+        </h1>
+        <nav> <!--- 메뉴 -->
+            <ul>
+                <li>관람정보
+                    <ul class = "subMenu">
+                        <li><a href ="#">관람안내</a></li>
+                        <li><a href ="#">전시해설</a></li>
+                        <li><a href ="#">오시는길</a></li>
+                    </ul>
+                </li>
+                <li>전시
+                    <ul class = "subMenu">
+                        <li><a href ="#">상설전시</a></li>
+                        <li><a href ="#">특별 전시</a></li>
+                        <li><a href ="#">디지털 전시쟝</a></li>
+                        </ul>
+                </li>   
+                <li>문화행사</li>
+                <li>교육</li>
+                <li>오시는 길</li>
+            </ul>
+        </nav>
+    </header>
+    <main><!--- main시작-->
+        <section id="MainImg">
+            <p id="onImgText">교양과 품격을 위한 곳 <br>수행평가 미술관</p>
+        </section>
+        <section id="table 111 box"><!-- box 세션 시작-->
+            
+            <div > <!---달력 -->
+                <table>
+                <tbody>
+                    <tr>
+                        <td>일</td>
+                        <td>월</td>
+                        <td>화</td>
+                        <td>수</td>
+                        <td>목</td>
+                        <td>금</td>
+                        <td>토</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>7/1</td>
+                        <td>2일</td>
+                        <td>3일</td>
+                        <td class="red">4일</td>
+                    </tr>
+                    <tr>
+                        <td>      </td>
+                        <td>      </td>
+                        <td>      </td>
+                        <td>   정상관람   </td>
+                        <td>   정상관람   </td>
+                        <td>   정상관람   </td>
+                        <td class="red">정기휴무</td>
+                    </tr>
+                    <tr>
+                        <td class="red">5일</td>
+                        <td>6일</td>
+                        <td>7일</td>
+                        <td>8일</td>
+                        <td>9일</td>
+                        <td>10일</td>
+                        <td>11일</td>
+                    </tr>
+                    <tr>
+                        <td class="red">정기휴무</td>
+                        <td>   정상관람   </td>
+                        <td>   정상관람   </td>
+                        <td>   정상관람   </td>
+                        <td>   정상관람   </td>
+                        <td>   정상관람   </td>
+                        <td>특별 프로그램 </td>
+                    </tr>
+                </tbody>
+            </div>
+        </table>
+            <div class="box-layout"><!--- 현재 전시 정보-->
+                <img src="../images/thumb.jpg" alt="전시 안내 포스터" class="poster-image" width="300" height="400" />
+                <br>
+                <p>7월 전시 : 아름다움을 나누는 마음</p>
+            </div>
+            <section class="box-layout form-box">
+                    <form>
+                    <fieldset>
+                        <legend>에약 정보</legend>
+
+                        <label for="art">예매 상품 : </label><br>
+                        <input type="text" readonly value="아름다움을 나누는 마음">
+                        <br>
+                        <label for="name">예매자 성명 :</label><br>
+                        <input type="text" required id="name" value="" maxlength="11"><br>
+                        <label for="tel">예매자 연락처 :</label><br>
+                        <input type="tel" required id="tel" value="010" maxlength="11">
+                        <br>
+                        <label for="people">예약 명수 선택</label>
+                        <input type="number" id="people" min="1" max="6" value="1" />
+                        <br>
+                        <label for="date">날짜 선택</label>
+                        <input type="date" id="date"  />
+                        <button type="submit">예약하기</button>
+                        </form>
+                </fieldset>
+                </section>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="footerLogo">
+         <img src="../images/logo.png" alt="Logo Image" id="logo">
+            <a href="https://kansong.org/daegu/"> 수행평가 미술관</a>
+        </h1>
+        <p>개인정보 처리방침 | 저작권 보호정책 | 이용약관 | 이메일주소무단수집거부 </p>
+        <p>박물관 주소 | (43010) 대구광역시 달성군 구지면 창리로 11길 93 <br>TEL | 053)231-9258</p>
+        <p>Copyright 1217 하헌휘 All right reserved.</p>
+    </footer>
+</body>
+</html>
