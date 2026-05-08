@@ -1,3 +1,26 @@
-banner {
+#banner {
+    /* 메인 배경 영역 너비 */
+    width: 100%;
+    /* 메인 배경 영역 높이 */
+    height: 400px;
+    /* 메인 배경 이미지 지정 */
+    background-image: url(../img/bg05.jpg);
+    /* 배경을 영역에 꽉 차게 표시 */
+    background-size: 100% 100%;
+    /* 내부 절대 배치 요소의 기준점 */
+    position: relative;
 
+}
+#onBannerText {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 40px;
+    left: 70px; 
+}
+h3 {
+    font-size: 35px;
+    margin: 40px;
+    text-align: center;
 }

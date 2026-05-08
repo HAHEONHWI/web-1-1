@@ -200,7 +200,7 @@ footer > p , .footerLogo {
     /* 메인 문구 굵게 표시 */
     font-weight: bolder;
     /* 반투명 흰색 글자 */
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     /* 배경 이미지 위 절대 위치 배치 */
     position: absolute;
     /* left: 100px;
