@@ -21,7 +21,9 @@ a {
         /* 클릭 영역 확장을 위한 블록 처리 */
     display: block;
 }
-
+.white {
+    color: white;
+}
 .box {
     width: 400px;
     height: 600px;
