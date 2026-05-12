@@ -30,6 +30,30 @@ h3 {
     border-top: 1px solid gray;
 }
 
-.tag_ing {
+.ex-img {
+    width: 400px;
+    height: 560px;
+}
 
+.tag_ing {
+    background-color: #34b586;
+    color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.tag_end {
+    background-color: #666666;
+    color: #f9f9f9;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+.ex_info>p {
+    margin: 15px;
 }
