@@ -33,7 +33,7 @@ h3 {
     /* flex-wrap: wrap;
     flex-direction: row; */
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: stretch;
 }
 
@@ -65,9 +65,17 @@ h3 {
     margin: 15px;
 }
 
-/* #ex01 {
-    margin-right: auto;
-} */
+#ex01 {
+    align-self: flex-start;
+}
+
+#ex02 {
+    align-self: center;
+}
+
+#ex03 {
+    align-self: flex-end;
+}
 
 .box2 {
     border: 1px solid black;
