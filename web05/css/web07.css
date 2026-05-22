@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+.jua-regular {
+    /* Jua 글꼴 적용 */
+  font-family: "Jua", sans-serif;
+    /* 기본 굵기 사용 */
+  font-weight: 400;
+    /* 기울임 없이 기본 스타일 */
+  font-style: normal;
+}
+
+#history {
+    display: flex;
+    gap: 60px;
+    
+}
+
+
+
 #his_img {
     width: 50%;
     /* border: 3px solid black; */
@@ -12,3 +30,20 @@
     /* object-fit: contain; */
 }
 
+#his_text {
+    text-align: center;
+    font-family: 'Jua';
+    
+    width: 40%;
+    line-height: 4vw;
+}
+
+#his_text p {
+    color: green;
+    font-size: 2.2vw;
+}
+
+#his_text ul {
+    text-align: left;
+    font-size: 1.6vw;
+}
