@@ -7,6 +7,10 @@
     /* 기울임 없이 기본 스타일 */
   font-style: normal;
 }
+
+
+
+
  h1 {
         /* 제목에 Jua 글꼴 적용 */
     font-family: "Jua";
@@ -242,7 +246,7 @@ header > nav > ul > li {
     /* 메뉴 항목 높이 */
     height: 50px;
     /* 메뉴 글자 굵기 지정 */
-    font-weight: 600px;
+    font-weight: 600;
     /* 메뉴 글자 크기 */
     font-size: 18px;
     /* 메뉴 글자 중앙 정렬 */
@@ -289,4 +293,20 @@ footer {
     width: 100%;
     /* 푸터 높이 고정 */
     height: 250px;
+}
+
+@media screen and (max-width: 1024px) {
+   header > nav  ul  li {
+        display: block;
+        width: 100%;
+        height: auto;
+     
+   }
+   .subMenu {
+        position: static;
+   }
+
+   .subMenu li {
+    width: 100%;
+   }
 }
