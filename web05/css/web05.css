@@ -307,7 +307,20 @@ footer {
     width: 100%;
    }
 }
+.h_box {
+    flex-basis: 300px;
+}
 
 #head {
-    
+    display: flex;
+    width: 1500px;
+    height: 80px;
+    gap: 10px;
+    line-height: 80px;
+}
+
+#search {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
 }
