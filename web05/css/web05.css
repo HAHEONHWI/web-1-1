@@ -12,7 +12,7 @@
         /* 제목에 Jua 글꼴 적용 */
     font-family: "Jua";
         /* 제목 왼쪽 여백 */
-    padding-left: 30px;
+
 }
 a {
         /* 링크 밑줄 제거 */
@@ -313,7 +313,7 @@ footer {
 
 #head {
     display: flex;
-    width: 1500px;
+    width: 1100px;
     height: 80px;
     gap: 10px;
     line-height: 80px;
@@ -321,6 +321,17 @@ footer {
 
 #search {
     width: 150px;
-    height: auto;
+    height: 30px;
     border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#h_box1 {
+    flex-grow: 1;
+}
+#h_box2 {
+    flex-grow: 1;
+}
+#h_box4 {
+    flex-grow: 2;
 }
