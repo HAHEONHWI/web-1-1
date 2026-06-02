@@ -116,3 +116,10 @@
     grid-column: 1/2;
     grid-row: 2/4;
 } */
+
+
+@media screen and (max-width: 768px) {
+    #springList {
+        display: block;
+    }
+}
