@@ -29,10 +29,14 @@
         console.log(radius*radius*pi)
         */
         num = prompt('숫자입력')
-        if (num % 3 === 0) {
-            console.log(`${num}은 3의 배수가 맞습니다`)
+        if (num === null) {
+            console.log("입력이 취소되었습니다")
         } else {
-            console.log(`${num}은 3의 배수가 아닙니다`)
+             if (num % 3 === 0) {
+                    console.log(`${num}은 3의 배수가 맞습니다`)
+                } else {
+                    console.log(`${num}은 3의 배수가 아닙니다`)
+                }
         }
     </script>
 </body>
