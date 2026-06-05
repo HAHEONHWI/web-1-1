@@ -12,7 +12,7 @@
     <header>
         <div id="head">
             <h1 id="h_box1">
-                <a href="../html/web05.htm"><img src="../img/logo.png" alt="Logo Image" id="logo"></a>
+                <img src="../img/logo.png" alt="Logo Image" id="logo">
                 대소고 수목원
             </h1>
             <p class="h_box" id="h_box2">로그인</p>
@@ -101,5 +101,14 @@
         <p>(43010) 대구광역시 달성군 구지면 창리로 11길 93 <br>TEL | 교무실 : 053)231-9258 | 행정실 : 053)231-9244</p>
         <p>Copyright 1217 하헌휘 All right reserved.</p>
     </footer>
+    <script src="../js/web05.js">
+    </script>
+    <script>
+        let login = document.querySelector('#h_box2')
+
+        login.onclick = function() {
+            login.style.color = 'blue'
+        }
+    </script>
 </body>
 </html>
