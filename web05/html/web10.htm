@@ -28,16 +28,128 @@
         let radius = 10;
         console.log(radius*radius*pi)
         */
+
+        /*
         num = prompt('숫자입력')
         if (num === null) {
             console.log("입력이 취소되었습니다")
         } else {
-             if (num % 3 === 0) {
-                    console.log(`${num}은 3의 배수가 맞습니다`)
-                } else {
-                    console.log(`${num}은 3의 배수가 아닙니다`)
-                }
+             (num % 3 === 0) ? console.log(`${num}은 3의 배수가 맞습니다`) : console.log(`${num}은 3의 배수가 아닙니다`)
         }
+             */
+        /*
+        let a = 100;
+        let b = 60;
+        let c = 40;
+
+        ((a+b+c)/3 >= 60) && ((a>=40)&&(b>=40)&&(c>=40)) ? console.log('합격') : console.log('불합격')
+        */
+ /*
+        switch (prompt("세션 선택하세요 (마케팅, 개발, 디자인)")) {
+            case '마케팅': document.write('201호')
+                break;
+
+            case '개발': document.write('203호')
+                break;
+            
+            case '디자인' : document.write('205호')
+                break;
+            
+            default : console.error('값이 잘못 입력되었습니다')
+        }
+        */
+
+        // let a = parseInt(prompt("숫자만 입력하시오."))
+        // let j = 7;
+        // while (a > j); {
+        //     document.write(j)
+        //     j += 7;
+        // } 
+        // document.write(j/7)     
+        // let n = 7;
+        // let num =0 ;
+        // for (let i = 1; i <= a; i++) {
+        //     if (i%7 === 0) {
+        //         document.write(i+'<br>')
+        //         num += 1
+        //     } 
+        // }
+        // document.write(`1부터 ${a}까지의 7의 배수는 ${num}개 입니다`)
+
+
+        // function mul() {
+        //     let num1 = 5;
+        //     let num2 = 7;
+
+        //     let result1 = num1*num2;
+        //     console.log(result1)
+        // }
+
+        // mul()
+
+        // function mul2(num3, num4) {
+        //     let result2 = num3*num4;
+        //     console.log(result2)
+        // }
+        // let numb1 = prompt()
+        // let numb2 = prompt()
+
+        // mul2(numb1, numb2)
+
+
+
+        // var sum = 0;
+        // function addNumber() {
+        //     // var result
+        //     sum = 10+20
+        //     result = 15-10
+        // }
+
+        // addNumber();
+        // console.log(sum);
+        // console.log(result)
+
+        // var x = 10;
+        // function displayNumber() {
+        //     console.log(`x is ${x}`)
+        //     console.log(`y is ${y}`)
+        //     var y = 20
+        // }
+        // displayNumber()\
+/*
+            function sum() {
+            let n = 10;
+            let result = 0;
+
+            for (let i = 1; i <= n; i++) {
+                result += i;
+            }
+
+                console.log(result);
+            }
+
+            sum();
+        */
+    //     function mult(a, b=5, c=10) {
+    //         return a*b+c
+    //    }
+
+    //    console.log(mult(5, 10, 20))
+    //    console.log(mult(10, 20))
+    //    console.log(mult(30))
+
+
+    // let sum = function(a, b) {
+    //     return a+b
+    // }
+
+    // console.log(`함수 실행 결과 : ${sum(10, 20)}`)
+
+
+    (function() {
+        let userName = prompt("이름을 입력하세요")
+        console.log(`${userName}님 안녕하세요`)
+    }())
     </script>
 </body>
 </html>
