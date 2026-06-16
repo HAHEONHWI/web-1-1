@@ -19,7 +19,7 @@
             <p class="h_box" id="h_box3">회원가입</p>
             <div class="h_box" id="h_box4">
                 <form>
-                    <input type="search" id="search">
+                    <input type="search" id="search" onclick="BgGray('#F2F2F2')" onblur="BgWhite(white)">
                     <i class="fi fi-br-search"></i>
                 </form>
             </div>
@@ -102,13 +102,17 @@
         <p>Copyright 1217 하헌휘 All right reserved.</p>
     </footer>
     <script src="../js/web05.js">
+        function BgGray(color) {
+            document.querySelector("#search")
+            
+        }
     </script>
-    <script>
+    <!-- <script>
         let login = document.querySelector('#h_box2')
 
         login.onclick = function() {
             login.style.color = 'blue'
         }
-    </script>
+    </script> -->
 </body>
 </html>

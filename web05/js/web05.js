@@ -5,9 +5,9 @@ signUp.onclick = function() {
 }
 
 // alert("Welcome to DGSW SIUMOKWON");
-confirm("이 페이지에서 바이러스가 탐지되었습니다. 이 페이지에 접속하시겠습니까?")
+// confirm("이 페이지에서 바이러스가 탐지되었습니다. 이 페이지에 접속하시겠습니까?")
 
-prompt("너의 이름은?", '엄준식')
+// prompt("너의 이름은?", '엄준식')
 
 
 
