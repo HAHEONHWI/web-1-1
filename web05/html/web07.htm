@@ -84,6 +84,10 @@
                         <li>2026.04.10 나무 자라기</li>
                     </ul>
                 </div>
+                <div>
+                    <br>
+                    <p>숲을 가꾼지 <span id="p_d"></span>일 지났습니다</p>
+                </div>
             </div>
         </section>
     </main>
@@ -96,5 +100,15 @@
         <p>(43010) 대구광역시 달성군 구지면 창리로 11길 93 <br>TEL | 교무실 : 053)231-9258 | 행정실 : 053)231-9244</p>
         <p>Copyright 1217 하헌휘 All right reserved.</p>
     </footer>
+    <script>
+        let now = new Date()
+        let start = new Date('2026-03-10')
+    
+        let passTime = now.getTime()-start.getTime()
+
+        let passDay = Math.round(passTime/1000/60/60/24);
+        document.querySelector("#p_d").innerText = passDay
+
+    </script>
 </body>
 </html>     
